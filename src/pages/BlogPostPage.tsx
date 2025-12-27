@@ -4,8 +4,6 @@ import { ArrowLeft, ArrowRight } from 'lucide-react';
 import { getBlogById, getAllBlogs } from '../data/blogs';
 import { FooterCTA } from '../components/FooterCTA';
 import { SectionReveal } from '../components/SectionReveal';
-import { TextReveal } from '../components/TextReveal';
-import { motion } from 'framer-motion';
 
 export const BlogPostPage: React.FC = () => {
   const { id } = useParams<{ id: string }>();
@@ -38,6 +36,7 @@ export const BlogPostPage: React.FC = () => {
         <div className="text-center">
           <h2 className="font-serif text-3xl text-soothe-text mb-4">Blog Post Not Found</h2>
           <button 
+            name="return to blog" 
             onClick={() => navigate('/blog')}
             className="text-soothe-muted underline hover:text-soothe-text"
           >
@@ -154,12 +153,14 @@ export const BlogPostPage: React.FC = () => {
             {/* Navigation Arrows */}
             <div className="flex gap-4 mt-4">
               <button 
+                name="scroll left" 
                 onClick={scrollLeft}
                 className="w-12 h-12 rounded-full bg-soothe-btnCircle hover:bg-soothe-pink flex items-center justify-center transition-colors text-soothe-text"
               >
                 <ArrowLeft size={20} />
               </button>
               <button 
+                name="scroll right" 
                 onClick={scrollRight}
                 className="w-12 h-12 rounded-full bg-soothe-btnCircle hover:bg-soothe-pink flex items-center justify-center transition-colors text-soothe-text"
               >

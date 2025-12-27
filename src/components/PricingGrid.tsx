@@ -52,6 +52,7 @@ export const PricingGrid: React.FC = () => {
             </p>
 
             <button 
+              name="contact us" 
               onClick={() => navigate('/contact')}
               className="w-full py-3.5 rounded-full bg-soothe-pink/50 text-soothe-text font-medium text-sm hover:bg-soothe-pink transition-colors mt-auto"
             >
@@ -81,6 +82,7 @@ export const PricingGrid: React.FC = () => {
             </p>
 
             <button 
+              name="contact us" 
               onClick={() => navigate('/contact')}
               className="w-full py-3.5 rounded-full bg-soothe-pink/50 text-soothe-text font-medium text-sm hover:bg-soothe-pink transition-colors mt-auto"
             >
@@ -109,6 +111,7 @@ export const PricingGrid: React.FC = () => {
             </p>
 
             <button 
+              name="contact us" 
               onClick={() => navigate('/contact')}
               className="w-full py-3.5 rounded-full bg-white text-soothe-text font-medium text-sm hover:bg-white/80 transition-colors mt-auto shadow-sm"
             >

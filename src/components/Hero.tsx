@@ -22,7 +22,7 @@ export const Hero: React.FC = () => {
         
         {/* Unified Background Image Asset */}
         <img 
-          src="https://www.dropbox.com/scl/fi/ux04dgc6k46fk8p5t4ru2/freepik__retouch__84682.png?rlkey=o02wnan35ksa7wqgsbocoul6f&st=2xbu21zy&raw=1" 
+          src="https://69sfgmk1pv2omedb.public.blob.vercel-storage.com/new-templates/Soothemi/freepik__retouch__84682.webp" 
           alt="Soothemi wellness scene featuring a calm interior with a ceramic vase on the left and a woman meditating in robes on the right" 
           className="absolute inset-0 w-full h-full object-cover z-0"
         />

@@ -1,5 +1,5 @@
-import React from 'react';
-import { ArrowRight } from 'lucide-react';
+import React from "react";
+import { ArrowRight } from "lucide-react";
 
 interface ButtonProps {
   children: React.ReactNode;
@@ -7,9 +7,14 @@ interface ButtonProps {
   onClick?: () => void;
 }
 
-export const Button: React.FC<ButtonProps> = ({ children, className = '', onClick }) => {
+export const Button: React.FC<ButtonProps> = ({
+  children,
+  className = "",
+  onClick,
+}) => {
   return (
-    <button 
+    <button
+      name="Soothemi" 
       onClick={onClick}
       className={`
         group relative flex items-center rounded-full 
@@ -33,7 +38,7 @@ export const Button: React.FC<ButtonProps> = ({ children, className = '', onClic
       `}
     >
       {/* Expanding Circle Background */}
-      <div 
+      <div
         className={`
           absolute left-1.5 top-1.5 bottom-1.5
           w-9 h-9 rounded-full bg-soothe-btnCircle 
@@ -44,19 +49,19 @@ export const Button: React.FC<ButtonProps> = ({ children, className = '', onClic
       />
 
       {/* Icon Container (Visual anchor) */}
-      <div 
+      <div
         className={`
           w-9 h-9 rounded-full 
           flex items-center justify-center shrink-0
           relative z-10
         `}
       >
-        <ArrowRight 
+        <ArrowRight
           className={`
             w-4 h-4 text-[#5A4E5D]
             transition-transform duration-[400ms] ease-calm
             group-hover:translate-x-[3px]
-          `} 
+          `}
           strokeWidth={1.5}
         />
       </div>

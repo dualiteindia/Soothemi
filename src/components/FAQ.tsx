@@ -94,7 +94,8 @@ export const FAQ: React.FC = () => {
             className="bg-white rounded-[2.5rem] px-10 py-6 flex flex-col md:flex-row items-center justify-between mt-8 gap-6 shadow-sm"
           >
             <span className="font-serif text-2xl text-soothe-text/90">Still have questions?</span>
-            <button 
+            <button   
+              name="contact us" 
               onClick={() => navigate('/contact')}
               className="px-10 py-4 rounded-full bg-soothe-pink text-soothe-text font-medium text-base hover:bg-[#ffcdd9] transition-colors shadow-btn hover:shadow-btn-hover"
             >

@@ -7,27 +7,27 @@ const testimonials = [
   {
     text: "Joining these yoga classes has been life-changing. I feel more energized every day, and my flexibility has improved significantly.",
     name: "Sarah, Yoga Enthusiast",
-    image: "https://www.dropbox.com/scl/fi/la3netl9yn886map6m139/13747.jpg?rlkey=s7om0qb59o7wzhe9kprva003s&st=rwllrxpv&raw=1"
+    image: "https://69sfgmk1pv2omedb.public.blob.vercel-storage.com/new-templates/Soothemi/13747.webp"
   },
   {
     text: "The instructors are incredibly supportive and knowledgeable. I've learned so much about my body and mind through their guidance.",
     name: "Emily, Beginner Yogi",
-    image: "https://www.dropbox.com/scl/fi/iibvguv8jrdw537ul3wih/24835.jpg?rlkey=hjhn59gs8fu2c3osxo95i1xrp&st=cy2cnt2g&raw=1"
+    image: "https://69sfgmk1pv2omedb.public.blob.vercel-storage.com/new-templates/Soothemi/24835.webp"
   },
   {
     text: "A wonderful community and a beautiful space. Every class feels like a mini-retreat from the chaos of daily life.",
     name: "Michael, Regular Member",
-    image: "https://www.dropbox.com/scl/fi/69rx5xrh8nsrz8tngmllt/2151745708.jpg?rlkey=vxbqlapgbg5rfpyjcrm8y5l5w&st=xcxydmod&raw=1"
+    image: "https://69sfgmk1pv2omedb.public.blob.vercel-storage.com/new-templates/Soothemi/2151745708.webp"
   },
   {
     text: "I never thought I'd enjoy yoga this much. It's become the highlight of my week and keeps me grounded.",
     name: "Jessica, Power Yoga Fan",
-    image: "https://www.dropbox.com/scl/fi/jpiigdnctzrv9p7msvwd4/2151742562.jpg?rlkey=7orn9igefztqa5oqimmy8an1v&st=wbo6w1jr&raw=1"
+    image: "https://69sfgmk1pv2omedb.public.blob.vercel-storage.com/new-templates/Soothemi/2151742562.webp"
   },
   {
     text: "The restorative classes are pure magic. I leave feeling like I'm floating on a cloud. Highly recommend!",
     name: "David, Stress Relief Seeker",
-    image: "https://www.dropbox.com/scl/fi/oq39e242tvpc6o0bgxd8m/2151745705.jpg?rlkey=aokgxj5wnvdwophc2vdt78pyd&st=7olj8x6t&raw=1"
+    image: "https://69sfgmk1pv2omedb.public.blob.vercel-storage.com/new-templates/Soothemi/2151745705.webp"
   }
 ];
 
@@ -85,12 +85,14 @@ export const Testimonials: React.FC = () => {
       {/* Navigation */}
       <div className="flex justify-center gap-4 mt-8">
         <button 
+          name="scroll left" 
           onClick={scrollLeft}
           className="w-12 h-12 rounded-full bg-soothe-pink/50 hover:bg-soothe-pink flex items-center justify-center transition-colors text-soothe-text"
         >
           <ArrowLeft size={20} />
         </button>
         <button 
+          name="scroll right" 
           onClick={scrollRight}
           className="w-12 h-12 rounded-full bg-soothe-pink/50 hover:bg-soothe-pink flex items-center justify-center transition-colors text-soothe-text"
         >

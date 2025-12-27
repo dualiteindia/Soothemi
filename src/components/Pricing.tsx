@@ -50,6 +50,7 @@ export const Pricing: React.FC = () => {
             </p>
 
             <button 
+              name="contact us" 
               onClick={() => navigate('/contact')}
               className="w-full py-4 rounded-full bg-soothe-pink text-soothe-text font-medium text-sm hover:bg-[#ffcdd9] transition-colors mt-auto"
             >
@@ -80,6 +81,7 @@ export const Pricing: React.FC = () => {
             </p>
 
             <button 
+              name="contact us" 
               onClick={() => navigate('/contact')}
               className="w-full py-4 rounded-full bg-soothe-pink text-soothe-text font-medium text-sm hover:bg-[#ffcdd9] transition-colors mt-auto"
             >
