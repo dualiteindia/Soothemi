@@ -73,7 +73,7 @@ export const Community: React.FC = () => {
               poster="https://69sfgmk1pv2omedb.public.blob.vercel-storage.com/new-templates/Soothemi/Screenshot%202025-12-27%20171001.webp"
             >
               <source
-                src="https://69sfgmk1pv2omedb.public.blob.vercel-storage.com/new-templates/Soothemi/0_Yoga_Fitness_2160x3840.mp4"
+                src="https://69sfgmk1pv2omedb.public.blob.vercel-storage.com/new-templates/Soothemi/0_Yoga_Fitness_2160x3840.webm"
                 type="video/mp4"
               />
               Your browser does not support the video tag.
